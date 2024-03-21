@@ -15,6 +15,7 @@ jobs:
           - arm64
           - armv7
           - 386
+          - s390x
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
@@ -37,6 +38,8 @@ jobs:
           sudo apt-get update
           if [ "${{ matrix.platform }}" == "arm64" ]; then
             sudo apt install gcc-aarch64-linux-gnu
+          elif [ "${{ matrix.platform }}" == "s390x" ]; then
+            sudo apt install gcc-s390x-linux-gnu
           elif [ "${{ matrix.platform }}" == "armv7" ]; then
             sudo apt install gcc-arm-linux-gnueabihf
           elif [ "${{ matrix.platform }}" == "386" ]; then

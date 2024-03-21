@@ -60,39 +60,6 @@ systemctl daemon-reload
 rm -fr /usr/local/s-ui
 ```
 
-## Install using Docker
-
-<details>
-   <summary>Click for details</summary>
-
-### Usage
-
-**Step 1:** Install Docker
-
-```shell
-curl -fsSL https://get.docker.com | sh
-```
-
-**Step 2:** Install S-UI
-
-```shell
-mkdir s-ui && cd s-ui
-docker run -itd \
-    -p 2095:2095 -p 443:443 -p 80:80 \
-    -v $PWD/db/:/usr/local/s-ui/db/ \
-    -v $PWD/cert/:/root/cert/ \
-    --name s-ui --restart=unless-stopped \
-    alireza7/s-ui:latest
-```
-
-> Build your own image
-
-```shell
-docker build -t s-ui .
-```
-
-</details>
-
 ## Languages
 
 - English

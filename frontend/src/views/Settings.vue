@@ -152,7 +152,7 @@ const settings = ref({
   webPath: "/app/",
   webURI: "",
 	sessionMaxAge: "0",
-	timeLocation: "Asia/Tehran",
+	timeLocation: "Asia/Shanghai",
   subListen: "",
 	subPort: "2096",
 	subPath: "/sub/",
