@@ -1,9 +1,9 @@
 # S-UI
 **An Advanced Web Panel • Built on SagerNet/Sing-Box**
 
-![](https://img.shields.io/github/v/release/alireza0/s-ui.svg)
+![](https://img.shields.io/github/v/release/sing-web/s-ui.svg)
 ![](https://img.shields.io/docker/pulls/alireza7/s-ui.svg)
-[![Downloads](https://img.shields.io/github/downloads/alireza0/s-ui/total.svg)](https://img.shields.io/github/downloads/alireza0/s-ui/total.svg)
+[![Downloads](https://img.shields.io/github/downloads/sing-web/s-ui/total.svg)](https://img.shields.io/github/downloads/sing-web/s-ui/total.svg)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > **Disclaimer:** This project is only for personal learning and communication, please do not use it for illegal purposes, please do not use it in a production environment
@@ -36,7 +36,7 @@
 ## Install & Upgrade to Latest Version
 
 ```sh
-bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/sing-web/s-ui/master/install.sh)
 ```
 
 ## Install Custom Version
@@ -44,7 +44,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.s
 **Step 1:** To install your desired version, add the version to the end of the installation command. e.g., ver `0.0.1`:
 
 ```sh
-bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh) 0.0.1
+bash <(curl -Ls https://raw.githubusercontent.com/sing-web/s-ui/master/install.sh) 0.0.1
 ```
 
 ## Uninstall S-UI
@@ -156,4 +156,4 @@ certbot certonly --standalone --register-unsafely-without-email --non-interactiv
 </details>
 
 ## Stargazers over Time
-[![Stargazers over time](https://starchart.cc/alireza0/s-ui.svg?variant=adaptive)](https://starchart.cc/alireza0/s-ui)
+[![Stargazers over time](https://starchart.cc/sing-web/s-ui.svg?variant=adaptive)](https://starchart.cc/sing-web/s-ui)
