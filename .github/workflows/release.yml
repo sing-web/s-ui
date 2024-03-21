@@ -62,6 +62,9 @@ jobs:
           if [ "${{ matrix.platform }}" == "arm64" ]; then
             export GOARCH=arm64
             export CC=aarch64-linux-gnu-gcc
+          elif [ "${{ matrix.platform }}" == "s390x" ]; then
+            export GOARCH=s390x
+            export CC=s390x-linux-gnu-gcc
           elif [ "${{ matrix.platform }}" == "armv7" ]; then
             export GOARCH=arm
             export GOARM=7
